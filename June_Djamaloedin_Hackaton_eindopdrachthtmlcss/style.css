@@ -1,0 +1,1224 @@
+/* For mobile phones */
+
+
+body {
+    font-family: lato, sans-serif;
+}
+
+
+h1 {
+    font-family: Italiana, serif;
+    color: black;
+}
+
+
+h4 {
+    font-family: Italiana, serif;
+}
+
+
+p {
+    font-family: lato, sans-serif;
+    font-size: 14px;
+    color: black;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+
+main h1 {
+    font-family: Italiana, serif;
+    font-size: 80px;
+    color:whitesmoke;
+    font-weight: lighter;
+    text-align: center;
+}
+
+
+.logo {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 7px;
+    color: black;
+}
+
+
+
+
+
+.nav-container {
+    display: flex; 
+    justify-content: center;
+    flex-flow: row nowrap;
+}
+
+
+nav {
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    background-color: white;
+    padding: 15px;
+    border-top: 1px solid black;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+
+nav a {
+    padding-bottom: 25px;
+    font-size: 12px;
+    margin-right: 10px;
+    margin-left: 10px; 
+    text-transform: uppercase;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+nav a:hover {
+    text-decoration: underline;
+    color:plum;
+    font-weight: 500;
+}
+
+
+a:active {
+    text-decoration: underline;
+    color:purple;
+}
+
+.logo a:hover {
+    color: plum;
+}
+
+
+.main-home {
+    color: white;
+    background-image: url("media/junerae-creativedesigner-home-banner-1.jpg");
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.main-about {
+    color: white;
+    background-image: url("media/ales-krivec-x4Jc4HKEHKg-unsplash.jpg");
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.header-overlay {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-content: center;
+    background-color: black;    
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    position:relative;
+    height: 500px;
+}
+
+
+.main-about .header-overlay {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-content: center;
+    background-color: black;    
+    background-color: rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    position:relative;
+    height: 500px;
+}
+
+
+.main-contact {
+    color: white;
+    background-image: url("media/fabrizio-conti-k6GpdsPJSZw-unsplash.jpg");
+    background-size: cover;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.main-contact .header-overlay {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    background-color: black;    
+    background-color: rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    position:relative;
+    height: 300px;
+}
+
+
+.main-contact h1{
+    font-size: 50px;
+}
+
+
+.main-services {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#ServicesVideo {
+    width: 100%;
+}
+
+
+#parent2 {
+position: relative;
+left: 0px;
+top: 0px;
+bottom: 0px;
+min-width: 100%;
+height: auto;
+left:0;
+}
+
+
+#child2 {
+position: absolute;
+left: 0;
+top: 0;
+bottom: 3px;
+min-width: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+#child2 h2 {
+    font-family: Italiana, Serif;
+    font-weight: 300;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+
+
+.footer-services {
+    position: static;
+}
+
+
+.header-buttons {
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    align-content: center;
+}
+
+
+button {
+    background-color: transparent;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    width: 150px; 
+    padding: 20px;
+    margin: 25px;
+    text-align: center; 
+    vertical-align: middle;
+    font-family: lato, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+    border-radius: 4px;
+}
+
+
+button:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+.page-content {
+    display: grid;
+    grid-template-columns: 6fr;
+    padding: 25px;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "w"
+    "m"
+    "m"
+    "m"
+    "m"
+    "m";
+}
+
+
+.widget-area {
+    background-color: white;
+    border: 1px solid black;
+    padding: 25px;
+    margin: 30px;
+    color: black;
+    grid-area: w;
+    box-shadow: 5px 10px #000;
+    grid-area: w;
+}
+
+
+.main-text {
+    grid-area: m;
+}
+
+
+.main-text p {
+    color: black;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    background-size: cover;
+}
+
+
+.footer-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    padding: 25px;
+    margin-bottom: 50px;
+    grid-template-areas:
+    "f g h";
+}
+
+
+.footer-columns h4 {
+    margin: 0px;
+}
+
+
+.footer-columns p {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0px;
+}
+
+
+.footer-column1 {
+    grid-area: f;
+    display: flex;
+    justify-content: flex-start;
+    align-content:flex-start;
+}
+
+
+p.logo-footer {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 7px;
+    color: white;
+    margin: 0px;
+}
+
+
+.footer-column2 {
+    grid-area: g;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column nowrap;
+    padding: 0px 20px;
+}
+
+
+.footer-column3 {
+    grid-area: h;
+    text-align: left;
+    padding: 0px 20px;
+}
+
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+
+.docs a {
+    color: darkgrey;
+    padding-left: 10px;
+    padding-right: 10ppx;
+    font-size: 10px;
+    text-decoration: underline;
+}
+
+
+.copyright {
+    color: darkgrey;
+    text-align: center;
+    font-size: 8px;
+    padding-bottom: 15px;
+}
+
+
+
+
+/* Style all font awesome icons */
+
+.decoration-fa{
+    padding:10px;
+    margin: 5px;
+    text-align:center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #F0F0F0;
+    color: #282828;
+    width: 13px;
+    height: 13px;    
+}
+
+
+  /* Add a hover effect if you want */
+  .fa:active {
+    color: black;
+  }
+  
+  /* Set a specific color for each brand */
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 50%;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 50%;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+    border-radius: 50%;
+  }
+
+
+
+
+  /* CONTACT PAGE FORM */
+
+
+.container-contact-form {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 50px 50px;
+
+}
+
+
+.contact-page-label {
+    font-family: lato, sans-serif;
+    font-size: 30px;
+    color: #000;
+    font-weight: 300;
+}
+
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: lato, sans-serif;
+    font-size: 20px;
+    color: darkgrey;
+    font-weight: 200;
+  }
+
+  
+input[type=color] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+.textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+input[type=file] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: lato, sans-serif;
+    font-size: 20px;
+    color: darkgrey;
+    font-weight: 200;
+  }
+
+
+input[type=url] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: lato, sans-serif;
+    font-size: 20px;
+    color: darkgrey;
+    font-weight: 200;
+  }
+
+  
+input[type=reset] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: lato, sans-serif;
+    font-size: 20px;
+    color: darkgrey;
+    font-weight: 200;
+  }
+
+
+.reset-btn {
+      background-color: white;
+      border: 1px solid black;
+      color: black;
+  }
+
+
+.reset-btn:hover {
+    background-color: pink;
+    border: 1px solid black;
+    color: black;
+}
+
+
+.reset-btn:active {
+    background-color: red;
+    border: 1px solid black;
+    color: black;
+}
+
+
+input[type=submit] {
+    width: auto;
+  }
+
+
+.submit-btn {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+  
+
+.radio-answer {
+    font-family: lato, sans-serif;
+    font-size: 20px;
+    color: #000;
+    font-weight: 200;
+}
+
+
+.label-answer {
+    font-family: lato, sans-serif;
+    font-size: 20px;
+    color: #000;
+    font-weight: 200;
+}
+
+
+.main-work {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: fit-content(33%) fit-content(33%) fit-content(33%);
+}
+
+
+.work-article {
+    text-align: center;
+    margin: 10px;
+}
+
+
+.work-article h2 {
+    font-family: lato, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    text-align: left;
+}
+
+
+.work-article p {
+    text-align: left;
+    color: black;
+}
+
+
+.work-article img {
+    width: 94%;
+}
+
+
+.banner {
+    grid-column: 1 / span 2;
+    grid-row: 3 / 4;
+    background-image: url("https://www.junerae.nl/wp-content/uploads/2020/04/portfolio-item-capeum.png");
+    background-color: #000;
+    height: 100%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+.banner-text {
+    background-color: rgba(0, 0, 0, .5);
+    margin: 30px;
+    padding: 10px 25px;
+    align-self: center;
+}
+
+
+.banner-text h1, p{
+    padding: 15px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For desktop */
+
+@media only screen and (min-width: 768px) {
+ 
+  
+    .page-content {
+        display: grid;
+        padding: 25px;
+        grid-template-columns: 2fr 6fr;
+        grid-template-rows: 1fr 7fr;
+        grid-template-areas:
+        "w m"
+        "w m"
+        "w m"
+        "w m"
+        "w m"
+        "w m"
+        "w m"
+        "w m";
+    }
+
+
+    .widget-area {
+        background-color: white;
+        border: 1px solid black;
+        padding: 25px;
+        margin-right: 50px;
+        color: black;
+        grid-area: w;
+        box-shadow: 5px 10px #000;
+    }
+    
+
+    .main-text {
+        grid-area: m;
+    }
+
+
+    main h1 {
+        font-family: Italiana, serif;
+        font-size: 60px;
+        color:whitesmoke;
+        text-align: center;
+    }
+
+
+    .logo {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 50px;
+        text-align: center;
+        letter-spacing: 7px;
+        color: black;
+    }
+
+
+    nav {
+        text-align: center;
+        font-family: lato, sans-serif;
+        background-color: white;
+        border-top: 1px solid black;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 25px;
+        font-weight: 300;
+        letter-spacing: 4px;
+    }
+
+
+    nav a {
+        font-size: 15px;
+        padding: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+
+    }
+
+
+    button {
+        background-color: transparent;
+        color: whitesmoke;
+        border: 1px solid white;
+        width: 150px; 
+        padding: 20px;
+        margin: 25px;
+        text-align: center; 
+        vertical-align: middle;
+        font-family: lato, sans-serif;
+        font-weight: 300;
+        border-radius: 4px;
+    }
+
+
+    /* Style all font awesome icons */
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 10px;
+        height: 10px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+    
+
+    /* Add a hover effect if you want */
+    .fa:hover {
+        padding: 25px;
+        width: 15px;
+        height: 15px;
+        color: plum;
+    }
+    
+
+    .container-contact-form {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 50px 50px;
+        margin: 50px;
+
+    }
+
+
+    .contact-page-label {
+        font-family: lato, sans-serif;
+        font-size: 18px;
+        color: #000;
+        font-weight: 300;
+
+    }
+
+
+    input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin-top: 15px;
+        margin-bottom: 35px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+
+    input[type=email] {
+        width: 100%;
+        padding: 12px 20px;
+        margin-top: 15px;
+        margin-bottom: 35px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+
+    input[type=tel] {
+        width: 100%;
+        padding: 12px 20px;
+        margin-top: 15px;
+        margin-bottom: 35px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+
+    input[type=number] {
+        width: 100%;
+        padding: 12px 20px;
+        margin-top: 15px;
+        margin-bottom: 35px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+
+    input[type=date] {
+        width: 100%;
+        padding: 12px 20px;
+        margin-top: 15px;
+        margin-bottom: 35px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-family: lato, sans-serif;
+        font-size: 16px;
+        color: darkgrey;
+        font-weight: 200;
+    }
+  
+
+    input[type=color] {
+        width: 50%;
+        padding: 12px 20px;
+        margin-top: 15px;
+        margin-bottom: 35px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+
+    .textarea {
+        width: 100%;
+        padding: 12px 20px;
+        margin-top: 15px;
+        margin-bottom: 35px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+
+    input[type=file] {
+        width: 100%;
+        padding: 12px 20px;
+        margin-top: 15px;
+        margin-bottom: 35px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-family: lato, sans-serif;
+        font-size: 16px;
+        color: darkgrey;
+        font-weight: 200;
+    }
+
+
+    input[type=url] {
+        width: 100%;
+        padding: 12px 20px;
+        margin-top: 15px;
+        margin-bottom: 35px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-family: lato, sans-serif;
+        font-size: 16px;
+        color: darkgrey;
+        font-weight: 200;
+    }
+
+
+    input[type=reset] {
+        width: 100%;
+        padding: 12px 20px;
+        margin-top: 15px;
+        margin-bottom: 35px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-family: lato, sans-serif;
+        font-size: 16px;
+        color: darkgrey;
+        font-weight: 200;
+    }
+
+
+    .reset-btn {
+        background-color: white;
+        border: 1px solid black;
+        color: black;
+    }
+
+
+    .reset-btn:hover {
+        background-color: pink;
+        border: 1px solid black;
+        color: black;
+    }
+
+
+    .reset-btn:active {
+        background-color: red;
+        border: 1px solid black;
+        color: black;
+    }
+
+
+    input[type=submit] {
+        width: auto;
+    }
+
+
+    .submit-btn {
+        border: 1px solid black;
+        background-color: white;
+        color: black;
+    }
+
+    
+    .radio-answer {
+        font-family: lato, sans-serif;
+        font-size: 16px;
+        color: #000;
+        font-weight: 200;
+    }
+
+
+    .label-answer {
+        font-family: lato, sans-serif;
+        font-size: 16px;
+        color: #000;
+        font-weight: 200;
+    }
+
+
+    .main-work {
+        display: grid;
+        grid-template-columns: 1fr 7fr 7fr 7fr 7fr 1fr;
+        grid-template-rows: fit-content(50%) fit-content(50%);
+        grid-template-areas:
+        ". article1 article2 article3 article4 ."
+        "banner banner banner banner banner banner"
+    }
+
+
+    .work-article {
+        text-align: center;
+        margin: 5px;
+    }
+
+    .article1 {
+        grid-area: article1;
+    }
+
+    .article2 {
+        grid-area: article2;
+    }
+
+    .article3 {
+        grid-area: article3;
+    }
+
+    .article4 {
+        grid-area: article4;
+    }
+
+
+    .work-article h2 {
+        font-family: lato, sans-serif;
+        font-size: 23px;
+        font-weight: 400;
+        margin: 10px;
+        text-align: left;
+    }
+
+
+    .work-article p {
+        font-family: lato, sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        padding: 10px;
+        text-align: left;
+        color: black;
+    }
+
+
+    .work-article img {
+        width: 94%;
+    }
+
+
+    .banner {
+        grid-column: 1 / span 2;
+        grid-row: 3 / 4;
+        background-image: url("https://www.junerae.nl/wp-content/uploads/2020/04/portfolio-item-capeum.png");
+        background-color: #000;
+        height: 100%;
+        background-position: center; 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        grid-area: banner; 
+    }
+
+
+    .banner-text {
+        background-color: rgba(0, 0, 0, .5);
+        margin: 30px;
+        width: 40%;
+        padding: 10px 25px;
+        align-self: center;
+    }
+
+    
+    .banner-text h1, p{
+        padding: 5px;
+        color: white;
+    }
+
+
+
+
+
+     .main-services {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    
+    #ServicesVideo {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+     }
+    
+    
+    #parent2 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    min-width: 100%;
+    height: 100%;
+    left:0;
+    }
+    
+    
+    #child2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 3px;
+    min-width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    
+    #child2 h2 {
+        font-family: Italiana, Serif;
+        font-weight: 300;
+        font-size: 36px;
+        text-align: center;
+        color: white;
+    }
+    
+    #child2 p {
+        text-align: center;
+        padding: 0px 50px;
+    }
+
+
+    .footer-services {
+        position: static;
+    
+      }
+    
+    
+.main-contact {
+    color: white;
+    background-image: url("media/fabrizio-conti-k6GpdsPJSZw-unsplash.jpg");
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.main-contact .header-overlay {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    background-color: black;    
+    background-color: rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    position:relative;
+    height: 500px;
+}
+
+
+.main-contact h1{
+    font-size: 60px;
+}
+
+
+p.logo-footer {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 7px;
+    color: white;
+    margin: 0px;
+}
+
+
+.main-about {
+    color: white;
+    background-image: url("media/ales-krivec-x4Jc4HKEHKg-unsplash.jpg");
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.main-about .header-overlay {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-content: center;
+    background-color: black;    
+    background-color: rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    position:relative;
+    height: 500px;
+}
+
+
+}
+
+
+
+
+
+

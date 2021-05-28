@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> Jujura Creative Agency</title>
+
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Italiana&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+    <header>
+ 
+        <p class="logo"> <a href="index.html">Jujura</a> </p>
+    
+
+
+        <div class="nav-containter">
+            <nav>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="work.html">Work</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+
+    </header>
+
+
+
+    <main class="main-contact">
+        <div class="header-overlay">
+
+            <h1>Contact</h1>
+            <div class="header-buttons">
+
+
+            </div>
+        </div>
+    </main>
+
+    <div class="container-contact-form">
+        <form name="jujura-contact-page-form" method="POST" data-netlify="true">
+
+            <label for="name" class="contact-page-label">First and lastname:</label>
+            <input type="text" placeholder="Firstname Lastname" id="name" name="name" />
+
+
+            <label for="email" class="contact-page-label">Email address:</label>
+            <input type="email" placeholder="example@gmail.com" id="email" name="email" />
+
+
+            <label for="phone" class="contact-page-label">Enter your phone number:</label>
+            <input type="tel" placeholder="+31612345678" id="phone" name="phone" />
+
+
+            <label for="age" class="contact-page-label">Age:</label>
+            <input type="number" placeholder="21" id="age" />
+
+
+            <label for="birthday" class="contact-page-label">Date of birth:</label>
+            <input type="date" id="birthday" />
+
+
+            <label class="contact-page-label">Gender:</label> <br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label class="radio-answer" for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label class="radio-answer" for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="non-binary">
+            <label class="radio-answer" for="non-binary">Non-binary</label><br> <br> <br>
+
+
+            <label class="contact-page-label">Favourite cuisine: <br></label>
+            <input type="checkbox" id="French" name="french" value="french">
+            <label class="label-answer" for="French"> French</label><br>
+            <input type="checkbox" id="italian" name="italian" value="italian">
+            <label class="label-answer" for="italian"> Italian</label><br>
+            <input type="checkbox" id="spanish" name="spanish" value="spanish">
+            <label class="label-answer" for="spanish"> Spanish</label><br>
+            <input type="checkbox" id="arabic" name="arabic" value="arabic">
+            <label class="label-answer" for="arabic"> Arabic</label><br> <br> <br>
+
+
+            <label class="contact-page-label" for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor">
+
+
+            <label class="contact-page-label" for="Biography">Biography: </label>
+            <textarea class="textarea" placeholder="Tell us something about you :)" id="Biography"
+                name="message"></textarea>
+
+
+            <label class="contact-page-label" for="uploadfile">Upload your file:</label>
+            <input type="file" id="uploadfile" name="uploadfile">
+
+
+            <label class="contact-page-label" for="your-website">Add your website:</label>
+            <input type="url" id="your-website" placeholder="www.yourwebsite.com" name="your-website">
+
+
+            <input class="reset-btn" type="reset">
+
+
+            <button class="submit-btn" type="submit">Submit</button>
+
+        </form>
+    </div>
+
+
+
+
+
+
+    <footer>
+        <div class="footer-columns">
+            <div class="footer-column1">
+                <p class="logo-footer">Jujura</p>
+            </div>
+
+            <div class="footer-column2">
+                <h4>Contact</h4>
+                <p>
+                    Straatnaam 123 <br>
+                    1234 AB Plaatsnaam <br>
+                    E: hi@junerae.nl <br>
+                    T: +3120 123 45 678 <br>
+                </p>
+            </div>
+
+            <div class="footer-column3">
+                <h4>Follow us</h4>
+                <p>
+                    <a href="https://www.linkedin.com/in/june-rae-a3963492/" target="_blank"
+                        class="fa fa-linkedin decoration-fa"></a>
+                    <a href="https://www.instagram.com/junerae_/?hl=en" target="_blank"
+                        class="fa fa-instagram decoration-fa"></a>
+                    <a href="https://www.facebook.com/junerae.nl" target="_blank"
+                        class="fa fa-facebook decoration-fa"></a>
+
+
+
+                </p>
+            </div>
+        </div>
+
+        <hr>
+        <div class="footer-bottom">
+            <p class="docs">
+                <a href="#">Cookies</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy Policy</a>
+            </p>
+        </div>
+
+        <p class="copyright">
+            © 2021 Jujura
+        </p>
+
+
+    </footer>
+
+
+
+</body>
+
+</html>
